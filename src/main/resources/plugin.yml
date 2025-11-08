@@ -1,0 +1,4 @@
+name: MCMultiHardcore
+version: '1.0-SNAPSHOT'
+main: org.PrinzAutistimus.mCMultiHardcore.MCMultiHardcore
+api-version: '1.21'
