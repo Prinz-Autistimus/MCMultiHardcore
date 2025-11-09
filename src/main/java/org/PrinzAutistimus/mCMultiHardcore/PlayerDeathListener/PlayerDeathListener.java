@@ -21,6 +21,8 @@ public class PlayerDeathListener implements Listener {
 
     @EventHandler
     public void onPlayerDeath(PlayerDeathEvent e) {
+        if(plugin.getGameState() == GameState.END) { return; }
+
         ArrayList<Player> currentPlayers = new ArrayList<>(Bukkit.getOnlinePlayers());
         currentPlayers.forEach(p -> p.setGameMode(GameMode.SPECTATOR));
         plugin.setGameState(GameState.END);
