@@ -1,6 +1,5 @@
 package org.PrinzAutistimus.mCMultiHardcore.NextTryCommand;
 
-import com.mojang.brigadier.Message;
 import io.papermc.paper.command.brigadier.BasicCommand;
 import io.papermc.paper.command.brigadier.CommandSourceStack;
 import net.kyori.adventure.text.minimessage.MiniMessage;
